@@ -1,27 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,700&family=Saira:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: 'Saira', 'sans-serif';
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply py-4;
+}
+.bgcolor{
+  background-color: #1D0B0B;
+
+color:#FFFFFF 
+}
+
+.hero {
+  @apply lg:h-[calc(100vh-80px)] bg-[#1D1D1D] flex lg:flex-row flex-col items-center gap-5 relative z-0 max-w-[1440px] mx-auto;
+  
+}
+
+.hero__title {
+  @apply 2xl:text-[50px] text-[#FFF]  text-[36px]  font-extrabold;
+}
+
+.hero__subtitle {
+  @apply text-[20px] text-[#E4E4E4] text-justify  font-light mt-5 xl:text-[22px] 2xl:text-[30px];
+}
+
+
+.hero__image-container {
+  @apply lg:flex-1 relative flex justify-end items-end  w-full  ;
+}
+
+.hero__image {
+  @apply relative w-[450px]  z-0  h-[400px]   ;
+}
+/* end styles of hero */
+.custombutton{
+  @apply bg-[#06D889] px-8 py-2 text-[#1D1D1D] rounded-sm my-4 text-lg
+
+}
+
+/* TITLE FOR ALL */
+.title{
+  @apply text-2xl text-[#FFF] font-bold my-4
+}
+/* global heading for all pages */
+.globalHeading{
+  @apply 2xl:text-[50px] text-[#FFF]  text-[36px]  font-extrabold
+}
+.globalpara{
+  @apply text-justify my-2 text-sm font-medium
+}
+.iconmove{ 
+  animation: move 3s infinite ease alternate; }
+@keyframes move {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(5px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.about__image {
+  @apply relative  w-full md:w-[60%] md:h-[400px] object-cover ;
+}
+
+.about__image-overlay {
+  /* @apply  ; */
 }
