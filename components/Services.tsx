@@ -37,9 +37,9 @@ const cards=[{
 function Services() {
   return (
     <>
-    <div className=' bg-[#1D1D1D]  padding-y padding-x mt-10' id="service">
+    <div className=' bg-[#1D1D1D]  py-10 padding-x mt-10' id="service">
     <h1 className='globalHeading text-center'>Services & Solutions</h1>
-    <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+    <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
 
    {
     cards.map((item,ind)=>(
