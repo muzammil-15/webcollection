@@ -29,11 +29,11 @@ function Contact() {
    <>
    
    
-   <div className="padding-x h-screen bg-[#171717] mt-10    py-10 flex lg:items-center  flex-col md:flex-row gap-5">
+   <div className="padding-x lg:h-screen bg-[#171717] mt-10    py-10 flex lg:items-center  flex-col md:flex-row gap-5" id="contact">
                 <div className='flex-1'>
                     <h1 className='globalHeading text-[#363636] mb-3'>Contact Info</h1>
 
-                    <div className='flex flex-col gap-5'>
+                    <div className='flex flex-col gap-10'>
                         {
                             info.map((item, ind) => (
                                 <div className='flex items-center  gap-5' key={ind}>
@@ -59,7 +59,7 @@ function Contact() {
 
                 </div>
                 <div className='flex-1'>
-                    <h1 className='globalHeading mb-3'>Get in <span className='text-[#2697D3]'>Touch Us</span></h1>
+                    <h1 className='globalHeading mb-5'>Get in <span className='text-[#2697D3]'>Touch Us</span></h1>
                    <ContactForm/>
                 </div>
 

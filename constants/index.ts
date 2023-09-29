@@ -23,7 +23,13 @@ export const navlinks=[{
   ,
   {
     title:"Location",
-    url:"",
+    url:"#location",
+    
+  }
+  ,
+  {
+    title:"Testmonial",
+    url:"#testimonial",
     
   }
   
