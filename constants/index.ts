@@ -72,21 +72,8 @@ export const navlinks=[{
     status:"Founder, CEO",
     img:"/expert1.png"
 
-  },
-  ,
-  {
-    name:"Lihaz khan",
-    status:"Founder, CEO",
-    img:"/expert1.png"
-
-  },
-  ,
-  {
-    name:"Lihaz khan",
-    status:"Founder, CEO",
-    img:"/expert1.png"
-
-  },
+  }
+  
 ];
 
 

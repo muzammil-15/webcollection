@@ -6,7 +6,7 @@ function ExpertSection() {
     <div className='relative padding-x padding-y mt-12'>
       <h1 className='globalHeading text-center my-5'>Our Experts</h1>
 
-      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 {
   experts.map((item,ind)=>(
     <div className='bg-[#121212] p-5 border-2 border-[#414141] border-l-10 rounded-t-full h-100 flex flex-col items-center justify-center' key={ind}>

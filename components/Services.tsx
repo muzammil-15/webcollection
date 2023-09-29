@@ -4,33 +4,33 @@ import ServiceCard from './ServiceCard';
 
 const cards=[{
   title:"Web Development",
-  icon:"/web.png",
+  icon:"/webskill.svg",
   desc:"Web development is the process of creating websites and web applications for the internet or intranet."
 },{
   
-    title:"Web Development",
-    icon:"/web.png",
+    title:"Graphic Designing",
+    icon:"/graphicskill.svg",
+    desc:"Cloud solutions refer to the use of cloud computing technology to provide services and solutions over the internet."
+  
+},{
+  title:"UI UX Designing",
+  icon:"/uxuiskill.svg",
+  desc:"Cybersecurity refers to the protection of computer systems, networks, and data from theft, damage, or unauthorized access."
+},{
+  
+    title:"Gis and RS",
+    icon:"/gisskill.svg",
     desc:"Web development is the process of creating websites and web applications for the internet or intranet."
   
 },{
-  title:"Web Development",
-  icon:"/web.png",
-  desc:"Web development is the process of creating websites and web applications for the internet or intranet."
+  title:"Software Development",
+  icon:"/softwareskill.svg",
+  desc:"Software development is the process of creating computer software programs that  perform specific functions or tasks."
 },{
   
-    title:"Web Development",
-    icon:"/web.png",
-    desc:"Web development is the process of creating websites and web applications for the internet or intranet."
-  
-},{
-  title:"Web Development",
-  icon:"/web.png",
-  desc:"Web development is the process of creating websites and web applications for the internet or intranet."
-},{
-  
-    title:"Web Development",
-    icon:"/web.png",
-    desc:"Web development is the process of creating websites and web applications for the internet or intranet."
+    title:"Mobile App Development",
+    icon:"/mobileskill.svg",
+    desc:"Digital marketing refers to the use of digital channels and technologies to promote products, services, or brands."
   
 }]
 

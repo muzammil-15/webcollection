@@ -77,7 +77,7 @@ class TestimonialSlider extends Component<TestimonialSliderProps> {
         <Slider ref={this.sliderRef} {...settings}>
           {this.props.testimonials.map((item, ind) => (
             <div className="relative md:h-[400px]" key={ind}>
-              <div className="hidden md:block w-full mt-[90px] h-[250px] bg-[#242648]"></div>
+              <div className="hidden md:block w-full mt-[90px] h-[250px] bg-[#1D0B0B]"></div>
               <div className="md:absolute md:inset-0 flex flex-col md:flex-row items-center mx-8 justify-between">
                 <div className="md:h-[350px] relative flex-1 rounded-full md:w-[350px]">
                   <Image src={item.img} alt="" width={350} height={350} />
