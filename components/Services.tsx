@@ -44,7 +44,7 @@ function Services() {
    {
     cards.map((item,ind)=>(
 
-      <ServiceCard title={item.title} icon={item.icon} desc={item.desc} />
+      <ServiceCard title={item.title} icon={item.icon} desc={item.desc} key={ind} />
     ))
    }
 

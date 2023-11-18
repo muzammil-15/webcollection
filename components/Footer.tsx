@@ -34,7 +34,7 @@ function Footer() {
           
           {
             item.links.map((itm,ind)=>(
-              <Link href="#" className='text-[#B5B5B5] text-sm'>{itm.title}</Link>
+              <Link href="#" className='text-[#B5B5B5] text-sm' key={ind}>{itm.title}</Link>
 
             ))
           }
